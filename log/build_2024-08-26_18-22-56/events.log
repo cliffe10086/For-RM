@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (turtle_chase) JobQueued: {'identifier': 'turtle_chase', 'dependencies': OrderedDict()}
+[0.000266] (turtle_chase) JobStarted: {'identifier': 'turtle_chase'}
+[0.010667] (turtle_chase) JobProgress: {'identifier': 'turtle_chase', 'progress': 'cmake'}
+[0.011395] (turtle_chase) JobProgress: {'identifier': 'turtle_chase', 'progress': 'build'}
+[0.012536] (turtle_chase) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cliffe/work/ros/ws/build/turtle_chase', '--', '-j8', '-l8'], 'cwd': '/home/cliffe/work/ros/ws/build/turtle_chase', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.86.1:7897/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LANGUAGE': 'zh_CN:en', 'USER': 'cliffe', 'LC_TIME': 'en_US.UTF-8', 'all_proxy': 'socks://192.168.86.1:7897/', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cliffe', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/cliffe/work/ros', 'TERM_PROGRAM_VERSION': '1.92.2', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2087', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.86.1:7897/', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cliffe', 'ALL_PROXY': 'socks://192.168.86.1:7897/', 'http_proxy': 'http://192.168.86.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cliffe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cliffe-VMware-Virtual-Platform:@/tmp/.ICE-unix/1876,unix/cliffe-VMware-Virtual-Platform:/tmp/.ICE-unix/1876', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/864755d3_7f39_49ff_b19f_ef3861637f1e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QUV5S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-84773e8aab.sock', 'GNOME_TERMINAL_SERVICE': ':1.113', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cliffe/work/ros/ws/build/turtle_chase', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://192.168.86.1:7897/', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099400] (-) TimerEvent: {}
+[0.099799] (turtle_chase) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_chase_node.dir/src/turtle_chase.cpp.o\x1b[0m\n'}
+[0.200109] (-) TimerEvent: {}
+[0.300907] (-) TimerEvent: {}
+[0.403248] (-) TimerEvent: {}
+[0.504450] (-) TimerEvent: {}
+[0.605587] (-) TimerEvent: {}
+[0.706665] (-) TimerEvent: {}
+[0.807772] (-) TimerEvent: {}
+[0.908917] (-) TimerEvent: {}
+[1.009987] (-) TimerEvent: {}
+[1.110502] (-) TimerEvent: {}
+[1.211423] (-) TimerEvent: {}
+[1.311873] (-) TimerEvent: {}
+[1.412751] (-) TimerEvent: {}
+[1.513454] (-) TimerEvent: {}
+[1.614107] (-) TimerEvent: {}
+[1.714952] (-) TimerEvent: {}
+[1.815843] (-) TimerEvent: {}
+[1.916595] (-) TimerEvent: {}
+[2.017316] (-) TimerEvent: {}
+[2.118137] (-) TimerEvent: {}
+[2.218997] (-) TimerEvent: {}
+[2.319621] (-) TimerEvent: {}
+[2.420919] (-) TimerEvent: {}
+[2.521568] (-) TimerEvent: {}
+[2.622232] (-) TimerEvent: {}
+[2.723173] (-) TimerEvent: {}
+[2.823816] (-) TimerEvent: {}
+[2.924668] (-) TimerEvent: {}
+[3.028428] (-) TimerEvent: {}
+[3.129271] (-) TimerEvent: {}
+[3.230313] (-) TimerEvent: {}
+[3.332529] (-) TimerEvent: {}
+[3.432961] (-) TimerEvent: {}
+[3.533860] (-) TimerEvent: {}
+[3.634694] (-) TimerEvent: {}
+[3.735303] (-) TimerEvent: {}
+[3.836079] (-) TimerEvent: {}
+[3.937051] (-) TimerEvent: {}
+[4.039971] (-) TimerEvent: {}
+[4.144163] (-) TimerEvent: {}
+[4.245221] (-) TimerEvent: {}
+[4.346996] (-) TimerEvent: {}
+[4.448162] (-) TimerEvent: {}
+[4.549034] (-) TimerEvent: {}
+[4.653321] (-) TimerEvent: {}
+[4.755031] (-) TimerEvent: {}
+[4.855604] (-) TimerEvent: {}
+[4.956380] (-) TimerEvent: {}
+[5.060029] (-) TimerEvent: {}
+[5.160628] (-) TimerEvent: {}
+[5.261262] (-) TimerEvent: {}
+[5.362448] (-) TimerEvent: {}
+[5.463814] (-) TimerEvent: {}
+[5.564947] (-) TimerEvent: {}
+[5.665639] (-) TimerEvent: {}
+[5.766496] (-) TimerEvent: {}
+[5.866996] (-) TimerEvent: {}
+[5.967504] (-) TimerEvent: {}
+[6.068311] (-) TimerEvent: {}
+[6.169170] (-) TimerEvent: {}
+[6.269844] (-) TimerEvent: {}
+[6.370631] (-) TimerEvent: {}
+[6.472019] (-) TimerEvent: {}
+[6.572956] (-) TimerEvent: {}
+[6.673743] (-) TimerEvent: {}
+[6.774647] (-) TimerEvent: {}
+[6.875531] (-) TimerEvent: {}
+[6.976594] (-) TimerEvent: {}
+[7.077212] (-) TimerEvent: {}
+[7.177825] (-) TimerEvent: {}
+[7.278965] (-) TimerEvent: {}
+[7.379945] (-) TimerEvent: {}
+[7.480862] (-) TimerEvent: {}
+[7.581695] (-) TimerEvent: {}
+[7.682405] (-) TimerEvent: {}
+[7.783150] (-) TimerEvent: {}
+[7.883596] (-) TimerEvent: {}
+[7.984603] (-) TimerEvent: {}
+[8.085580] (-) TimerEvent: {}
+[8.186927] (-) TimerEvent: {}
+[8.288307] (-) TimerEvent: {}
+[8.389398] (-) TimerEvent: {}
+[8.490105] (-) TimerEvent: {}
+[8.590944] (-) TimerEvent: {}
+[8.692113] (-) TimerEvent: {}
+[8.793060] (-) TimerEvent: {}
+[8.894026] (-) TimerEvent: {}
+[8.995167] (-) TimerEvent: {}
+[9.095782] (-) TimerEvent: {}
+[9.196657] (-) TimerEvent: {}
+[9.297674] (-) TimerEvent: {}
+[9.398624] (-) TimerEvent: {}
+[9.499354] (-) TimerEvent: {}
+[9.600115] (-) TimerEvent: {}
+[9.700858] (-) TimerEvent: {}
+[9.801676] (-) TimerEvent: {}
+[9.902295] (-) TimerEvent: {}
+[10.003055] (-) TimerEvent: {}
+[10.104188] (-) TimerEvent: {}
+[10.205252] (-) TimerEvent: {}
+[10.306250] (-) TimerEvent: {}
+[10.407250] (-) TimerEvent: {}
+[10.508156] (-) TimerEvent: {}
+[10.609309] (-) TimerEvent: {}
+[10.710147] (-) TimerEvent: {}
+[10.810642] (-) TimerEvent: {}
+[10.911350] (-) TimerEvent: {}
+[11.012163] (-) TimerEvent: {}
+[11.102693] (turtle_chase) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_chase_node\x1b[0m\n'}
+[11.112813] (-) TimerEvent: {}
+[11.213624] (-) TimerEvent: {}
+[11.314221] (-) TimerEvent: {}
+[11.415188] (-) TimerEvent: {}
+[11.479764] (turtle_chase) StdoutLine: {'line': b'[100%] Built target turtle_chase_node\n'}
+[11.494643] (turtle_chase) CommandEnded: {'returncode': 0}
+[11.515671] (-) TimerEvent: {}
+[11.542251] (turtle_chase) JobProgress: {'identifier': 'turtle_chase', 'progress': 'install'}
+[11.555556] (turtle_chase) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cliffe/work/ros/ws/build/turtle_chase'], 'cwd': '/home/cliffe/work/ros/ws/build/turtle_chase', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.86.1:7897/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LANGUAGE': 'zh_CN:en', 'USER': 'cliffe', 'LC_TIME': 'en_US.UTF-8', 'all_proxy': 'socks://192.168.86.1:7897/', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cliffe', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/cliffe/work/ros', 'TERM_PROGRAM_VERSION': '1.92.2', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2087', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.86.1:7897/', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cliffe', 'ALL_PROXY': 'socks://192.168.86.1:7897/', 'http_proxy': 'http://192.168.86.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cliffe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cliffe-VMware-Virtual-Platform:@/tmp/.ICE-unix/1876,unix/cliffe-VMware-Virtual-Platform:/tmp/.ICE-unix/1876', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/864755d3_7f39_49ff_b19f_ef3861637f1e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QUV5S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-84773e8aab.sock', 'GNOME_TERMINAL_SERVICE': ':1.113', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cliffe/work/ros/ws/build/turtle_chase', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://192.168.86.1:7897/', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.565670] (turtle_chase) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.566266] (turtle_chase) StdoutLine: {'line': b'-- Installing: /home/cliffe/work/ros/ws/install/turtle_chase/lib/turtle_chase/turtle_chase_node\n'}
+[11.578080] (turtle_chase) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cliffe/work/ros/ws/install/turtle_chase/lib/turtle_chase/turtle_chase_node" to ""\n'}
+[11.578649] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/package_run_dependencies/turtle_chase\n'}
+[11.579364] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/parent_prefix_path/turtle_chase\n'}
+[11.579708] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/ament_prefix_path.sh\n'}
+[11.580030] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/ament_prefix_path.dsv\n'}
+[11.580180] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/path.sh\n'}
+[11.580316] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/path.dsv\n'}
+[11.580472] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.bash\n'}
+[11.580612] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.sh\n'}
+[11.580861] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.zsh\n'}
+[11.582265] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.dsv\n'}
+[11.582378] (turtle_chase) StdoutLine: {'line': b'-- Installing: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/package.dsv\n'}
+[11.583093] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/packages/turtle_chase\n'}
+[11.583297] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/cmake/turtle_chaseConfig.cmake\n'}
+[11.583407] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/cmake/turtle_chaseConfig-version.cmake\n'}
+[11.583464] (turtle_chase) StdoutLine: {'line': b'-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/package.xml\n'}
+[11.583728] (turtle_chase) CommandEnded: {'returncode': 0}
+[11.616131] (-) TimerEvent: {}
+[11.652424] (turtle_chase) JobEnded: {'identifier': 'turtle_chase', 'rc': 0}
+[11.653681] (-) EventReactorShutdown: {}

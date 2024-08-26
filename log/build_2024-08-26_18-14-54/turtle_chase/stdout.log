@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_chase_node.dir/src/turtle_chase.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_chase_node[0m
+[100%] Built target turtle_chase_node
+-- Install configuration: ""
+-- Installing: /home/cliffe/work/ros/ws/install/turtle_chase/lib/turtle_chase/turtle_chase_node
+-- Set non-toolchain portion of runtime path of "/home/cliffe/work/ros/ws/install/turtle_chase/lib/turtle_chase/turtle_chase_node" to ""
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/package_run_dependencies/turtle_chase
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/parent_prefix_path/turtle_chase
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/path.sh
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/path.dsv
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.bash
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.sh
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.zsh
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.dsv
+-- Installing: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/package.dsv
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/packages/turtle_chase
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/cmake/turtle_chaseConfig.cmake
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/cmake/turtle_chaseConfig-version.cmake
+-- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/package.xml

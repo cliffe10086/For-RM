@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/cliffe/work/ros/ws/build/turtle_chase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cliffe/work/ros/ws/build/turtle_chase -- -j8 -l8
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_chase_node.dir/src/turtle_chase.cpp.o[0m
+[10.839s] [100%] [32m[1mLinking CXX executable turtle_chase_node[0m
+[11.237s] [100%] Built target turtle_chase_node
+[11.257s] Invoked command in '/home/cliffe/work/ros/ws/build/turtle_chase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cliffe/work/ros/ws/build/turtle_chase -- -j8 -l8
+[11.316s] Invoking command in '/home/cliffe/work/ros/ws/build/turtle_chase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cliffe/work/ros/ws/build/turtle_chase
+[11.330s] -- Install configuration: ""
+[11.330s] -- Installing: /home/cliffe/work/ros/ws/install/turtle_chase/lib/turtle_chase/turtle_chase_node
+[11.341s] -- Set non-toolchain portion of runtime path of "/home/cliffe/work/ros/ws/install/turtle_chase/lib/turtle_chase/turtle_chase_node" to ""
+[11.341s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/package_run_dependencies/turtle_chase
+[11.341s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/parent_prefix_path/turtle_chase
+[11.341s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/ament_prefix_path.sh
+[11.341s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/ament_prefix_path.dsv
+[11.341s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/path.sh
+[11.341s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/environment/path.dsv
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.bash
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.sh
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.zsh
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/local_setup.dsv
+[11.342s] -- Installing: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/package.dsv
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/ament_index/resource_index/packages/turtle_chase
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/cmake/turtle_chaseConfig.cmake
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/cmake/turtle_chaseConfig-version.cmake
+[11.342s] -- Up-to-date: /home/cliffe/work/ros/ws/install/turtle_chase/share/turtle_chase/package.xml
+[11.346s] Invoked command in '/home/cliffe/work/ros/ws/build/turtle_chase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cliffe/work/ros/ws/build/turtle_chase
