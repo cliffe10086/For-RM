@@ -1,3 +1,5 @@
+c_cpp_properties.jason includepath添加/opt中ros对应版本的include
+
 步骤
 打开两个命令行
 第一个
